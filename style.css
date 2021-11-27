@@ -353,7 +353,8 @@ color: white;}
     grid-template-rows: repeat(3,1fr);
     row-gap: 30px;
     column-gap: 30px;
-    margin-top: 20px;}
+    margin-top: 20px;
+    padding: 10px;}
 
 .griditem3{
     background-color: #800080;
@@ -376,4 +377,61 @@ color: white;}
     border-radius: 10px;
     font-size: 20px;
     font-weight: 700;
+}
+#sixth_sec, #seventh_sec{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#sixth_sec div h2{
+    margin: 30px;
+    color: #7f0b7f;
+    height: 30vh; }
+#seventh_sec{
+background-color: #932a93;
+}
+#card_first{
+display: flex;
+flex-direction: row;
+align-items:center;
+justify-content: flex-start;
+width: 100%;
+
+}
+
+.card_conntainer{
+    position: relative;
+    top: -200px;
+    display: flex;
+    
+
+}
+.card{
+    width: 80vw;
+    border: solid 3px #800080;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px;
+    background-color: white;
+    z-index: 10;
+    
+}
+.pinfo #name{
+    color: #932a93;
+    font-weight: 800;
+
+}
+.pinfo #batch{
+color: gray;
+}
+#para{
+    text-overflow: ellipsis; 
+
+
+}
+#dp{
+border-radius: 100px;
+margin-right: 20px;
 }
