@@ -1,0 +1,344 @@
+*{
+box-sizing: border-box;
+padding: 0;
+margin: 0;
+font-family: 'Open Sans', sans-serif;
+}
+nav{
+    height: 90px;
+    width: 100%;
+    padding: 20px 10px 0 10px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 10px 1px gray;
+   
+}
+#icon{
+    height: 40px;
+}
+.bt-cont{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#logbt{
+    border: 1px solid #800080;
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: #800080;
+    font-size: 15px;
+    font-weight: 600;
+}
+#signbt{
+    
+    padding: 6px 10px;
+    border-radius: 5px;
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+}
+#bt{
+    margin-right: 20px;
+}
+.hamburger{
+    color:#800080 ;
+    font-size: 29px;
+}
+
+/* Gradient */
+.grade{
+    background: rgb(178,110,206);
+    background: linear-gradient(90deg, rgba(178,110,206,1) 0%, rgba(135,88,193,1) 35%); 
+}
+
+main{
+    background-color:#edd9ed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#first{
+    color:#800080;
+    background-color: white;
+    padding:20px;
+    border-radius: 5px;
+    margin: 40px auto;
+    box-shadow: 0px 3px 10px gray;
+}
+
+#second{
+     text-align: center;
+     font-size: 17px;
+     color:#800080;
+     margin: 0 auto 30px auto;
+
+}
+#second span{
+    font-size: 22px;
+}
+
+#second p{
+    margin-bottom: 10px;
+}
+
+#second a{
+    color: white;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: 500;
+    padding: 4px 7px;
+    word-spacing: 2px;
+}
+
+#third{
+    margin: 30px auto 25px auto;
+    
+}
+#third a{
+    border: 2px solid #800080 ;
+    color: #800080;
+    padding: 8px;
+    border-radius: 5px 7px;
+    font-size: 15px;
+    font-weight: 600;
+}
+#fourth{
+    color: white;
+    padding: 10px 40px;
+    background-color: #800080;
+    border-radius: 5px;
+    font-weight: 500;
+    margin-bottom: 20px;
+    box-shadow: 0px 3px 10px   gray;
+}
+
+#second_sec{
+background-color: #e2c4e2;  
+width: 95vw;
+border-radius: 5px 5px 0 0;
+box-shadow: 3px 0px 10px   gray;
+display: flex;
+justify-content: center;
+align-items: center;
+
+/* ---- */
+flex-direction: column;
+}
+
+#ss_1stD{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width:80%;
+}
+#ss_1stD div h3{
+    text-align: center;
+    color: #800080;
+    padding: 10px;
+    font-size: 18px;
+}
+#ss_1stD div p{
+    text-align: justify;
+    font-size: 15px;
+    color: #800080;
+    padding: 10px;
+    font-weight: 400;
+}
+#ss_1stD video{
+    padding: 10px;
+    border-radius: 10px;
+}
+
+#ss_2ndD{
+  width: 100%;
+  background-color: #7f277f;  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 35px;;
+}
+
+#grid_container
+{   display: grid;
+    grid-template-columns:repeat(2,1fr);
+    grid-template-rows: repeat(3,1fr);
+    justify-content: center;
+    align-items: center;
+    grid-row-gap: 10px;
+    grid-column-gap:9px ;
+}
+
+.griditem{
+    background: rgb(255,255,255);
+    background: linear-gradient(130deg, rgba(255,255,255,1) 0%,
+     rgba(168,109,168,1) 90%); 
+    color: #800080;
+    text-align: center;
+    width: 140px;
+    height: 100px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-weight: 600;
+}
+.bold{
+font-weight:800;
+}
+
+#ota1{
+    text-align: center;
+    margin: 30px 20px 20px 20px ;
+    color: white;
+    font-weight: 700;
+    font-size: 20px;
+    background-color: #7f277f;
+    padding: 10px;
+    width: 70%;
+    border-radius: 10px;
+    box-shadow: 0px 3px 10px   gray;
+
+}
+
+#third_sec{
+    width: 95vw;
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%); 
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+    position: relative;
+    box-shadow: 0px 7px 8px 0px gray;  }
+
+#ts_md{
+    width: 70vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;      }
+
+#ts_md div img{
+    border-radius: 5px;
+    
+}
+.imagecontainer{
+    position: relative;
+    margin-top: 0px;
+    top: -60px;
+
+}
+
+.gridcontainer2{
+    display: grid;
+    grid-template-columns:20% 80%;
+    grid-template-rows: repeat(4,1fr);
+    justify-content: center;
+    align-items: center;
+    margin-top: -35px;
+    margin-bottom: 50px;
+}
+
+.griditem2{
+    margin-top: -5px;
+    color: #800080;
+    font-weight: 700;
+    text-align: left;
+ 
+}
+.shiftright{
+    margin-left: 20px;
+}
+.griditem2 img{
+   width: 60px;
+
+}
+
+.line{
+    height: 40px;
+    width: 1px;
+    border: 0.5px solid black;
+    position: relative;
+    right: -27px;
+    top: -7px;
+}
+
+#fourth_sec{
+    width: 95vw;
+    border-radius: 10px;
+    margin-top: 20px;
+    box-shadow: 0px 7px 8px 0px gray;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#fs_1std{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#heading h1{
+    font-size: 45px !important;
+    font-weight: 900;
+}
+#fs_1std #heading{
+    text-align: center;
+    font-weight: 700;
+    color: white;
+    margin: 10px 0 10px 0;
+    font-size: 20px;
+}
+
+#fs_1std div img{
+    border-radius: 5px;
+    text-align: center;
+}
+
+#text{
+    text-align: justify;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+#knnowmore{
+    font-size: 12px;
+    background-color: white;
+    color: #800080;
+    padding: 15px 50px;
+    border-radius: 5px;
+    margin: 20px;
+}
+#fifth_sec h2{
+    color: #800080;
+}
+
+#abt_container{
+    display: flex;
+    
+
+}
+.abt{
+    border-radius: 20px;
+    color: #800080;
+    background-color:#dec2de ;
+    padding:5px 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    font-size:20px;
+    margin:5px;
+    cursor: pointer;
+}
+.abt:hover{
+background-color: #932a93;
+color: white;
+}
