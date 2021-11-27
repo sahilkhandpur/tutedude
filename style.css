@@ -316,14 +316,19 @@ font-weight:800;
     border-radius: 5px;
     margin: 20px;
 }
+#fifth_sec{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
 #fifth_sec h2{
     color: #800080;
 }
 
 #abt_container{
     display: flex;
-    
-
 }
 .abt{
     border-radius: 20px;
@@ -336,9 +341,39 @@ font-weight:800;
     font-weight: 700;
     font-size:20px;
     margin:5px;
-    cursor: pointer;
-}
+    cursor: pointer;}
+
 .abt:hover{
 background-color: #932a93;
-color: white;
+color: white;}
+
+#gridcontainer3{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(3,1fr);
+    row-gap: 30px;
+    column-gap: 30px;
+    margin-top: 20px;}
+
+.griditem3{
+    background-color: #800080;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 0px 7px 8px 0px gray;  }
+
+#course_name {
+    color: white;
+    margin: 30px;
+}
+#km{
+    text-align: center;
+    padding-left: 30px;
+    background-color: #800080;
+    color: white;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: 700;
 }
